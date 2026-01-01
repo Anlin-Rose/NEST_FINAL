@@ -1,0 +1,19 @@
+
+
+
+<div class="container py-5">
+
+  @if (product) {
+    <h2>{{ product.title }}</h2>
+    <img [src]="product.thumbnail" class="img-fluid" />
+    <p>{{ product.description }}</p>
+  }
+  @else {
+    <h4 class="text-center text-muted">
+      Loading item details...
+    </h4>
+  }
+
+</div>
+
+

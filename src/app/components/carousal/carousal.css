@@ -1,0 +1,21 @@
+.hi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.carousel-inner {
+  width: 700px; 
+}
+
+.carousel-item img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1;
+  text-align: center;
+}
